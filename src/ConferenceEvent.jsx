@@ -42,7 +42,7 @@ const ConferenceEvent = () => {
   };
 
   const handleDecrementAvQuantity = (index) => {
-    dispatch(handleDecrementAvQuantity(index));
+    dispatch(decrementAvQuantity(index));
   };
 
   const handleMealSelection = (index) => {
